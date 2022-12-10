@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#202124;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.logo-input-wa{
+    display: flex;
+    gap:2rem;
+   
+
+}
+.logo-input-wa hr{
+    /* height: 2.2rem; */
+  /* width: -0.2px; */
+/* margin-top: 0.8rem; */
+}
+
+.input-wa{
+    display: flex;
+    justify-content: space-between;
+    background:#303134;
+    width: 40rem;
+    height: 3rem;
+    border-color: rgba(223,225,229,0
+    );
+    border: 1px solid transparent;
+    border-radius: 3rem;
+    margin: 0 auto;
+
+}
+.input-wa input{
+    border: none;
+    border-radius: 3rem;
+    
+    outline: none;
+   width: 20rem;
+   background:#303134;
+   /* background-color:#202124 ; */
+ 
+  
+}
+.input-icons{
+    display: flex;
+    
+ 
+}
+.input-wa input::placeholder{
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+}
+.material-symbols-outlined{
+    /* padding-top: 0.8rem; */
+   color: white;
+   padding: 0.8rem 1rem;
+   align-items: center;
+}
+header{
+    display: flex;
+    margin: 1rem 8rem;
+    
+}
+.hero-session-li{
+    display: flex;
+    
+} 
+
+.hero-session-li li{
+    list-style: none;
+    color: white;
+    
+   
+}
+.tools{
+    padding-top: 1.34rem;
+    margin-left: 14rem;
+}
+.tools p{
+    color: white;
+}
+main{
+    margin: 1rem 8rem;
+}
+.hero-intro,.foot-wa{
+    display: flex;
+}
+.hero-intro{
+    margin-top: 2rem
+}
+.result-wa{
+    color: white;
+    font-size: 12px;
+}
+.hero-ocu{
+    color: white;
+}
+.reviews{
+    justify-content: ;
+}
+
+.reviews span{
+    border: 1px solid ;
+    
+background:#303134;
+    border-radius: 100px;
+    padding: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 14px 0 6px 8px;
+    overflow: hidden;
+    text-decoration: none;
+    vertical-align: top;
+    -webkit-text-size-adjust: none;
+    color: white;
+}
+
+
